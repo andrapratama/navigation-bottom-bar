@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:navigationbottombar/screens/tab_item.dart';
+import 'package:navigationbottombar/widgets/tab_item.dart';
 
 class BottomNavigation extends StatelessWidget {
   // ignore: use_key_in_widget_constructors
