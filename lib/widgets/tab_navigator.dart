@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:navigationbottombar/tab_item.dart';
+import 'package:navigationbottombar/widgets/tab_item.dart';
 
 class TabNavigatorRoutes {
   static const String root = '/';
