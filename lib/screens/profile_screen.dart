@@ -5,9 +5,12 @@ class ProfileSrceen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Profile'),
+      ),
       backgroundColor: Color.fromARGB(255, 223, 232, 239),
-      body: Center(
+      body: const Center(
         child: Text('Profile'),
       ),
     );
