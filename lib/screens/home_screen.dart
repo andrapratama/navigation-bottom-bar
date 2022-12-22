@@ -11,6 +11,9 @@ class HomeScreen extends StatelessWidget {
         title: const Text('Home'),
       ),
       backgroundColor: const Color.fromARGB(255, 223, 232, 239),
+      body: const Center(
+        child: Text('Home'),
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           Navigator.of(context).push(
