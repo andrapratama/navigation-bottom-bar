@@ -14,16 +14,16 @@ class HomeScreen extends StatelessWidget {
       body: const Center(
         child: Text('Home'),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          Navigator.of(context).push(
-            MaterialPageRoute(
-              builder: (context) => const PostScreen(),
-            ),
-          );
-        },
-        child: const Icon(Icons.post_add),
-      ),
+      // floatingActionButton: FloatingActionButton(
+      //   onPressed: () {
+      //     Navigator.of(context).push(
+      //       MaterialPageRoute(
+      //         builder: (context) => const PostScreen(),
+      //       ),
+      //     );
+      //   },
+      //   child: const Icon(Icons.post_add),
+      // ),
     );
   }
 }
